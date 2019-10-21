@@ -1,18 +1,13 @@
-# CS 4740 Fall 2019 Project 2 -- metaphor detection with sequence labeling
+# Bryant Lee and Daniel Paragni NLP Project 2
+Put training, validation, and test data in a data_release directory in this directory.
 
-Please read the PDF writeup for P2 for detailed requirements
+## How to run
+Put P2_Final_Submission in the same directory as data_release. Execute each cell in order. 
 
-## Data
-In the folder data_release, we include the train/dev/test.csv files -- train.csv and dev.csv come with labels, and test.csv doesn't
-
-## Eval
-
-```
-python eval.py --pred sample_out.csv
-
-(replace sample_out.csv with 'your prediction file name')
-```
-
-Submit your prediction file for test.csv to kaggle, it should have the same format with sample_out.csv
-
-Hint: you can refer to eval.py for how to write the code for reading the input files.
+## Library Dependencies 
+* sklearn
+* nltk
+* pandas
+* numpy
+* gensim
+* pandas
